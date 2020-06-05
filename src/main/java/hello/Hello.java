@@ -26,5 +26,11 @@ public class Hello { // follow imports
     String theText = scanner.nextLine();
     System.out.println(theText);
     System.out.println(scanner.nextLine());
+    System.out.print("Enter a number: ");
+    String theNumber = scanner.nextLine();
+    int enteredNumber = Integer.parseInt(theNumber);
+    System.out.println(enteredNumber + 10);
+
+    System.out.println("" + scanner);
   }
 }
